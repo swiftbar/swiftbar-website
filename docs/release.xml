@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>SwiftBar Releases</title>
+        <link>https://swiftbar.com/release.xml</link>
+        <description>Most recent SwiftBar releases (not test builds).</description>
+        <language>en</language>
+
+<item>
+    <title>NetNewsWire 5.1.3</title>
+    <description><![CDATA[
+<p>Fixed a crashing bug</p>
+<p>Bla-Bla-Bla.</p>
+    ]]></description>
+    <pubDate>Mon, 09 Nov 2020 18:30:00 -0700</pubDate>
+    <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="5.1.3" length="6583350" type="application/zip" />
+    <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+</item>
+    </channel>
+</rss>
