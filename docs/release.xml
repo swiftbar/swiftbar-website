@@ -7,14 +7,34 @@
         <language>en</language>
 
 <item>
-    <title>NetNewsWire 5.1.3</title>
+    <title>SwiftBar 1.0.2</title>
     <description><![CDATA[
-<p>Fixed a crashing bug</p>
-<p>Bla-Bla-Bla.</p>
+<p>New: Added "Send Feedback" menu item which opens issues page in this repository</p>
+<p>Option to hide SwiftBar icon from the menu</p>
+<p>Fixed: Script output parsing</p>
+<p>Fixed: Image retention in the menu bar</p>
+<p>Fixed: Separator not showing in submenus correctly</p>
+<p>Fixed: Parameters `refresh=true` and `bash=...` don't work together</p>
+<p>Fixed: Default menu font size</p>
+<p>Fixed: Plugin Repository is not showing if plugin folder is not selected</p>
+<p>Fixed: Don’t allow set /Application folder as plugin folder</p>
+<p>Fixed: Invert font in menu bar when selected</p>
     ]]></description>
-    <pubDate>Mon, 09 Nov 2020 18:30:00 -0700</pubDate>
+    <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
     <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="5.1.3" length="6583350" type="application/zip" />
     <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
 </item>
+<item>
+    <title>SwiftBar 1.0.1</title>
+    <description><![CDATA[
+<p>Fixed: Template Images not Displaying</p>
+<p>Improved: Changing plugin folder reloads plugins automatically</p>
+<p>Improved: Not time plugins, i.e. `plugin.sh` run one time on launch(technically every 100 days)</p>
+    ]]></description>
+    <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
+    <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="5.1.3" length="6583350" type="application/zip" />
+    <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+</item>
+
     </channel>
 </rss>
