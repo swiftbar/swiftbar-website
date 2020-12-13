@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<rss version="2.0"
+    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>SwiftBar Releases</title>
         <link>https://swiftbar.com/release.xml</link>
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
 
-<item>
-<title>SwiftBar 1.1.0</title>
-    <description><![CDATA[
+        <item>
+            <title>SwiftBar 1.1.0</title>
+            <description><![CDATA[
 <p>New Option to hide system menu items </p>
 <p>New Support SF Symbols in item title </p>
 <p>New SwiftBar environment properties passed to plugin scope </p>
@@ -26,13 +28,14 @@
 <p>Fixed: "Run in Terminal" creates new tabs both for Terminal and iTerm </p>
 <p>Fixed: Couldn't get plugins from Plugin Repository </p>
 <p>Fixed: Executable and parameters contains spaces is not escaped </p>
-    ]]></description>
-    <pubDate>Sun, 13 Dec 2020 00:00:00 -0700</pubDate>
-    <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.0/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.1.0" length="6583350" type="application/zip" />
-    <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-</item>
-    <title>SwiftBar 1.0.2</title>
-    <description><![CDATA[
+    ]]>            </description>
+            <pubDate>Sun, 13 Dec 2020 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.0/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.1.0" length="6583350" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+        </item>
+        <item>
+            <title>SwiftBar 1.0.2</title>
+            <description><![CDATA[
 <p>New: Added "Send Feedback" menu item which opens issues page in this repository</p>
 <p>Option to hide SwiftBar icon from the menu</p>
 <p>Fixed: Script output parsing</p>
@@ -43,22 +46,22 @@
 <p>Fixed: Plugin Repository is not showing if plugin folder is not selected</p>
 <p>Fixed: Don’t allow set /Application folder as plugin folder</p>
 <p>Fixed: Invert font in menu bar when selected</p>
-    ]]></description>
-    <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
-    <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.0.2" length="6583350" type="application/zip" />
-    <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-</item>
-<item>
-    <title>SwiftBar 1.0.1</title>
-    <description><![CDATA[
+    ]]>            </description>
+            <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.0.2" length="6583350" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+        </item>
+        <item>
+            <title>SwiftBar 1.0.1</title>
+            <description><![CDATA[
 <p>Fixed: Template Images not Displaying</p>
 <p>Improved: Changing plugin folder reloads plugins automatically</p>
 <p>Improved: Not time plugins, i.e. `plugin.sh` run one time on launch(technically every 100 days)</p>
-    ]]></description>
-    <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
-    <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.0.1" length="6583350" type="application/zip" />
-    <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-</item>
+    ]]>            </description>
+            <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.0.1" length="6583350" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+        </item>
 
     </channel>
 </rss>
