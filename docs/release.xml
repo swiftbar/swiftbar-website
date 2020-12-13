@@ -30,7 +30,7 @@
 <p>Fixed: Executable and parameters contains spaces is not escaped </p>
     ]]>            </description>
             <pubDate>Sun, 13 Dec 2020 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.0/SwiftBar.zip" sparkle:version="173" sparkle:shortVersionString="1.1.0" length="6583350" type="application/zip" />
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.0/SwiftBar.zip" sparkle:version="178" sparkle:shortVersionString="1.1.0" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
         <item>
