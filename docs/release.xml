@@ -7,6 +7,30 @@
         <language>en</language>
 
 <item>
+<title>SwiftBar 1.1.0</title>
+    <description><![CDATA[
+<p>New Option to hide system menu items </p>
+<p>New Support SF Symbols in item title </p>
+<p>New SwiftBar environment properties passed to plugin scope </p>
+<p>New Improved support for binary plugins </p>
+<p>New Plugins with no output are automatically hidden from the menu bar, instead of showing ⚠️ </p>
+<p>New Ignore contents of hidden subfolders in the Plugin Folder </p>
+<p>New ANSI colors support </p>
+<p>New Opt-out from SwiftBar making files executable in the Plugin Folder </p>
+<p>New Separate color options for dark/light appearance </p>
+<p>New Auto-update mechanisms </p>
+<p>Fixed: Allow icon and text in the menu bar </p>
+<p>Fixed: Crash on start if the Plugin Folder was removed </p>
+<p>Fixed: Plugins are not recognized when Plugin Folder path contains spaces </p>
+<p>Fixed: Refreshing repository data lasts forever ... </p>
+<p>Fixed: "Run in Terminal" creates new tabs both for Terminal and iTerm </p>
+<p>Fixed: Couldn't get plugins from Plugin Repository </p>
+<p>Fixed: Executable and parameters contains spaces is not escaped </p>
+    ]]></description>
+    <pubDate>Sun, 13 Dec 2020 00:00:00 -0700</pubDate>
+    <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.0/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.1.0" length="6583350" type="application/zip" />
+    <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+</item>
     <title>SwiftBar 1.0.2</title>
     <description><![CDATA[
 <p>New: Added "Send Feedback" menu item which opens issues page in this repository</p>
