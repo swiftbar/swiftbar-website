@@ -30,7 +30,7 @@
 <p>Fixed: Executable and parameters contains spaces is not escaped </p>
     ]]>            </description>
             <pubDate>Sun, 13 Dec 2020 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.0/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.1.0" length="6583350" type="application/zip" />
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.0/SwiftBar.zip" sparkle:version="173" sparkle:shortVersionString="1.1.0" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
         <item>
@@ -48,7 +48,7 @@
 <p>Fixed: Invert font in menu bar when selected</p>
     ]]>            </description>
             <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.0.2" length="6583350" type="application/zip" />
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="131" sparkle:shortVersionString="1.0.2" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
         <item>
@@ -59,7 +59,7 @@
 <p>Improved: Not time plugins, i.e. `plugin.sh` run one time on launch(technically every 100 days)</p>
     ]]>            </description>
             <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="3018" sparkle:shortVersionString="1.0.1" length="6583350" type="application/zip" />
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="101" sparkle:shortVersionString="1.0.1" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
 
