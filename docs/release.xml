@@ -7,20 +7,37 @@
         <link>https://swiftbar.com/release.xml</link>
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
-
+     <item>
+            <title>SwiftBar 1.1.1</title>
+            <description><![CDATA[
+            <p>New: OS_APPERANCE environment variable containing current macOS appearance</p>
+<p>Improved: Custom baseline offset for custom font sizes</p>
+<p>Improved: Environment variables inheritance from system shell</p>
+<p>Improved: Plugin list scrolls to top on category change</p>
+<p>Improved:  SF Symbols have priority, emoji will work only if SF Symbols explicitly disabled.</p>
+<p>Fixed: Plugin directory doesn't support symlinks</p>
+<p>Fixed: "Get Plugins" sidebar is far too narrow by default</p>
+<p>Fixed: Background & foreground ANSI colors are not supported together</p>
+<p>Fixed: Extra space with image menus</p>
+<p>Fixed: Disabled plugins run on SwiftBar start</p>
+    ]]>            </description>
+            <pubDate>Sun, 16 Dec 2020 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.1/SwiftBar.zip" sparkle:version="195" sparkle:shortVersionString="1.1.1" length="6583350" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+        </item>
         <item>
             <title>SwiftBar 1.1.0</title>
             <description><![CDATA[
-<p>New Option to hide system menu items </p>
-<p>New Support SF Symbols in item title </p>
-<p>New SwiftBar environment properties passed to plugin scope </p>
-<p>New Improved support for binary plugins </p>
-<p>New Plugins with no output are automatically hidden from the menu bar, instead of showing ⚠️ </p>
-<p>New Ignore contents of hidden subfolders in the Plugin Folder </p>
-<p>New ANSI colors support </p>
-<p>New Opt-out from SwiftBar making files executable in the Plugin Folder </p>
-<p>New Separate color options for dark/light appearance </p>
-<p>New Auto-update mechanisms </p>
+<p>New: Option to hide system menu items </p>
+<p>New: Support SF Symbols in item title </p>
+<p>New: SwiftBar environment properties passed to plugin scope </p>
+<p>New: Improved support for binary plugins </p>
+<p>New: Plugins with no output are automatically hidden from the menu bar, instead of showing ⚠️ </p>
+<p>New: Ignore contents of hidden subfolders in the Plugin Folder </p>
+<p>New: ANSI colors support </p>
+<p>New: Opt-out from SwiftBar making files executable in the Plugin Folder </p>
+<p>New: Separate color options for dark/light appearance </p>
+<p>New: Auto-update mechanisms </p>
 <p>Fixed: Allow icon and text in the menu bar </p>
 <p>Fixed: Crash on start if the Plugin Folder was removed </p>
 <p>Fixed: Plugins are not recognized when Plugin Folder path contains spaces </p>
