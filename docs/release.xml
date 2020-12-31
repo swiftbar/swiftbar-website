@@ -7,6 +7,26 @@
         <link>https://swiftbar.com/release.xml</link>
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
+        <item>
+            <title>SwiftBar 1.2.0</title>
+            <description><![CDATA[
+<p>New URL Scheme for sending notifications</p>
+<p>New Plugin metadata support for binary plugins</p>
+<p>New Support dropping stuff on menu bar</p>
+<p>New Localization support</p>
+<p>New Display metadata in Preferences: Plugins</p>
+<p>New Enable/disable plugins via checkbox</p>
+<p>New SF Symbols can be tinted with color using `sfcolor=`  parameter</p>
+<p>New Menu bar item now supports actions(href, bash, refresh)</p>
+<p>New `symbolize` is always `false` on Catalina</p>
+<p>New Dutch localization</p>
+<p>Fixed Reset to default background ANSI color doesn't work</p>
+<p>Fixed "Run in Terminal" Doesn't Appear to Set Environment Variables</p>
+    ]]>            </description>
+            <pubDate>Sun, 30 Dec 2020 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.0/SwiftBar.zip" sparkle:version="220" sparkle:shortVersionString="1.2.0" length="6583350" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+        </item>
      <item>
             <title>SwiftBar 1.1.1</title>
             <description><![CDATA[
