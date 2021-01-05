@@ -7,6 +7,21 @@
         <link>https://swiftbar.com/release.xml</link>
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
+            <item>
+            <title>SwiftBar 1.2.1</title>
+            <description><![CDATA[
+<p>New Streaming plugin support<\p>
+<p>New Nested symlinked directories in Plugin Folder properly traversed <\p>
+<p>New Calendar access support<\p>
+<p>Fixed Shortcuts action is broken for menu bar item<\p>
+<p>Fixed SwiftBar doesn't ask for notification permissions<\p>
+<p>Fixed SwiftBar sometimes hangs when opening a URL (Not sure about this one, please report if you see this happening)<\p>
+    ]]>            </description>
+            <pubDate>Tue, 5 Jan 2021 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.1/SwiftBar.zip" sparkle:version="237" sparkle:shortVersionString="1.2.1" length="6583350" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+        </item>
+     <item>
         <item>
             <title>SwiftBar 1.2.0</title>
             <description><![CDATA[
