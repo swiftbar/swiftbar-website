@@ -21,7 +21,6 @@
             <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.1/SwiftBar.zip" sparkle:version="237" sparkle:shortVersionString="1.2.1" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
-     <item>
         <item>
             <title>SwiftBar 1.2.0</title>
             <description><![CDATA[
