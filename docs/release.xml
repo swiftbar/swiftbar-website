@@ -7,6 +7,20 @@
         <link>https://swiftbar.com/release.xml</link>
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
+        <item>
+            <title>SwiftBar 1.2.2</title>
+            <description><![CDATA[
+<p>New Shortcuts support for F-keys</p>
+<p>Fixed Refresh intervals in symlinked plugin files get ignored</p>
+<p>Fixed SwiftBar should show "⚠️" after streaming plugin has crashed</p>
+<p>Fixed Menu item vertical position with custom font size on Catalina</p>
+<p>Fixed Inflated binary size due too Swift bug</p>
+<p>Improved About Window Copyright and formatting</p>
+    ]]>            </description>
+            <pubDate>Sun, 31 Jan 2021 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.2/SwiftBar.zip" sparkle:version="252" sparkle:shortVersionString="1.2.2" length="6583350" type="application/zip" />
+            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
+        </item>
             <item>
             <title>SwiftBar 1.2.1</title>
             <description><![CDATA[
@@ -88,8 +102,7 @@
             <title>SwiftBar 1.0.2</title>
             <description><![CDATA[
 <p>New: Added "Send Feedback" menu item which opens issues page in this repository</p>
-<p>Option to hide SwiftBar icon from the menu</p>
-<p>Fixed: Script output parsing</p>
+<p>Option to hide SwiftBar icon from the menu</p><p>Fixed: Script output parsing</p>
 <p>Fixed: Image retention in the menu bar</p>
 <p>Fixed: Separator not showing in submenus correctly</p>
 <p>Fixed: Parameters `refresh=true` and `bash=...` don't work together</p>
