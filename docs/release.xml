@@ -8,124 +8,23 @@
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
         <item>
-            <title>SwiftBar 1.2.2</title>
+            <title>SwiftBar 1.2.3</title>
             <description><![CDATA[
-<p>New Shortcuts support for F-keys</p>
-<p>Fixed Refresh intervals in symlinked plugin files get ignored</p>
-<p>Fixed SwiftBar should show "⚠️" after streaming plugin has crashed</p>
-<p>Fixed Menu item vertical position with custom font size on Catalina</p>
-<p>Fixed Inflated binary size due too Swift bug</p>
-<p>Improved About Window Copyright and formatting</p>
+<p>New Improved Plugin Repository, including search</p>
+<p>New Improved Preferences, including an ability to change some of plugin's parameters </p>
+<p>New Option to not run plugins in bash</p>
+<p>New Custom shortcuts appear on menu items</p>
+<p>New Support for milliseconds in refresh interval</p>
+<p>New Plugins should remember position in the menu bar and work nicely with Bartender/Dozer/etc.</p>
+<p>New User friendly alert for an unsupported folder for Plugins (i.e. /Applications or /Library)</p>
+<p>Fixed Preferences and Plugin Repository can be opened in more than one window</p>
+<p>Fixed Inconsistent menu title color when using 'reduce transparency' on Big Sur</p>
+<p>Fixed SwiftBar should handle the sleep-wake cycle correctly </p>
+<p>Fixed Proper dismiss for About Plugin pop-up </p>
     ]]>            </description>
-            <pubDate>Sun, 31 Jan 2021 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.2/SwiftBar.zip" sparkle:version="252" sparkle:shortVersionString="1.2.2" length="6583350" type="application/zip" />
+            <pubDate>Tue, 9 Mar 2021 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.3/SwiftBar.zip" sparkle:version="287" sparkle:shortVersionString="1.2.3" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
-            <item>
-            <title>SwiftBar 1.2.1</title>
-            <description><![CDATA[
-<p>New Streaming plugin support</p>
-<p>New Nested symlinked directories in Plugin Folder properly traversed </p>
-<p>New Calendar access support</p>
-<p>Fixed Shortcuts action is broken for menu bar item</p>
-<p>Fixed SwiftBar doesn't ask for notification permissions</p>
-<p>Fixed SwiftBar sometimes hangs when opening a URL (Not sure about this one, please report if you see this happening)</p>
-    ]]>            </description>
-            <pubDate>Tue, 5 Jan 2021 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.1/SwiftBar.zip" sparkle:version="237" sparkle:shortVersionString="1.2.1" length="6583350" type="application/zip" />
-            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-        </item>
-        <item>
-            <title>SwiftBar 1.2.0</title>
-            <description><![CDATA[
-<p>New URL Scheme for sending notifications</p>
-<p>New Plugin metadata support for binary plugins</p>
-<p>New Support dropping stuff on menu bar</p>
-<p>New Localization support</p>
-<p>New Display metadata in Preferences: Plugins</p>
-<p>New Enable/disable plugins via checkbox</p>
-<p>New SF Symbols can be tinted with color using `sfcolor=`  parameter</p>
-<p>New Menu bar item now supports actions(href, bash, refresh)</p>
-<p>New `symbolize` is always `false` on Catalina</p>
-<p>New Dutch localization</p>
-<p>Fixed Reset to default background ANSI color doesn't work</p>
-<p>Fixed "Run in Terminal" Doesn't Appear to Set Environment Variables</p>
-    ]]>            </description>
-            <pubDate>Sun, 30 Dec 2020 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.0/SwiftBar.zip" sparkle:version="220" sparkle:shortVersionString="1.2.0" length="6583350" type="application/zip" />
-            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-        </item>
-     <item>
-            <title>SwiftBar 1.1.1</title>
-            <description><![CDATA[
-            <p>New: OS_APPERANCE environment variable containing current macOS appearance</p>
-<p>Improved: Custom baseline offset for custom font sizes</p>
-<p>Improved: Environment variables inheritance from system shell</p>
-<p>Improved: Plugin list scrolls to top on category change</p>
-<p>Improved:  SF Symbols have priority, emoji will work only if SF Symbols explicitly disabled.</p>
-<p>Fixed: Plugin directory doesn't support symlinks</p>
-<p>Fixed: "Get Plugins" sidebar is far too narrow by default</p>
-<p>Fixed: Background & foreground ANSI colors are not supported together</p>
-<p>Fixed: Extra space with image menus</p>
-<p>Fixed: Disabled plugins run on SwiftBar start</p>
-    ]]>            </description>
-            <pubDate>Sun, 16 Dec 2020 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.1/SwiftBar.zip" sparkle:version="195" sparkle:shortVersionString="1.1.1" length="6583350" type="application/zip" />
-            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-        </item>
-        <item>
-            <title>SwiftBar 1.1.0</title>
-            <description><![CDATA[
-<p>New: Option to hide system menu items </p>
-<p>New: Support SF Symbols in item title </p>
-<p>New: SwiftBar environment properties passed to plugin scope </p>
-<p>New: Improved support for binary plugins </p>
-<p>New: Plugins with no output are automatically hidden from the menu bar, instead of showing ⚠️ </p>
-<p>New: Ignore contents of hidden subfolders in the Plugin Folder </p>
-<p>New: ANSI colors support </p>
-<p>New: Opt-out from SwiftBar making files executable in the Plugin Folder </p>
-<p>New: Separate color options for dark/light appearance </p>
-<p>New: Auto-update mechanisms </p>
-<p>Fixed: Allow icon and text in the menu bar </p>
-<p>Fixed: Crash on start if the Plugin Folder was removed </p>
-<p>Fixed: Plugins are not recognized when Plugin Folder path contains spaces </p>
-<p>Fixed: Refreshing repository data lasts forever ... </p>
-<p>Fixed: "Run in Terminal" creates new tabs both for Terminal and iTerm </p>
-<p>Fixed: Couldn't get plugins from Plugin Repository </p>
-<p>Fixed: Executable and parameters contains spaces is not escaped </p>
-    ]]>            </description>
-            <pubDate>Sun, 13 Dec 2020 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.0/SwiftBar.zip" sparkle:version="178" sparkle:shortVersionString="1.1.0" length="6583350" type="application/zip" />
-            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-        </item>
-        <item>
-            <title>SwiftBar 1.0.2</title>
-            <description><![CDATA[
-<p>New: Added "Send Feedback" menu item which opens issues page in this repository</p>
-<p>Option to hide SwiftBar icon from the menu</p><p>Fixed: Script output parsing</p>
-<p>Fixed: Image retention in the menu bar</p>
-<p>Fixed: Separator not showing in submenus correctly</p>
-<p>Fixed: Parameters `refresh=true` and `bash=...` don't work together</p>
-<p>Fixed: Default menu font size</p>
-<p>Fixed: Plugin Repository is not showing if plugin folder is not selected</p>
-<p>Fixed: Don’t allow set /Application folder as plugin folder</p>
-<p>Fixed: Invert font in menu bar when selected</p>
-    ]]>            </description>
-            <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="131" sparkle:shortVersionString="1.0.2" length="6583350" type="application/zip" />
-            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-        </item>
-        <item>
-            <title>SwiftBar 1.0.1</title>
-            <description><![CDATA[
-<p>Fixed: Template Images not Displaying</p>
-<p>Improved: Changing plugin folder reloads plugins automatically</p>
-<p>Improved: Not time plugins, i.e. `plugin.sh` run one time on launch(technically every 100 days)</p>
-    ]]>            </description>
-            <pubDate>Mon, 30 Nov 2020 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip" sparkle:version="101" sparkle:shortVersionString="1.0.1" length="6583350" type="application/zip" />
-            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-        </item>
-
     </channel>
 </rss>
