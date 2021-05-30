@@ -8,22 +8,20 @@
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
         <item>
-            <title>SwiftBar 1.2.3</title>
+            <title>SwiftBar 1.3.0</title>
             <description><![CDATA[
-<p>New Improved Plugin Repository, including search</p>
-<p>New Improved Preferences, including an ability to change some of plugin's parameters </p>
-<p>New Option to not run plugins in bash</p>
-<p>New Custom shortcuts appear on menu items</p>
-<p>New Support for milliseconds in refresh interval</p>
-<p>New Plugins should remember position in the menu bar and work nicely with Bartender/Dozer/etc.</p>
-<p>New User friendly alert for an unsupported folder for Plugins (i.e. /Applications or /Library)</p>
-<p>Fixed Preferences and Plugin Repository can be opened in more than one window</p>
-<p>Fixed Inconsistent menu title color when using 'reduce transparency' on Big Sur</p>
-<p>Fixed SwiftBar should handle the sleep-wake cycle correctly </p>
-<p>Fixed Proper dismiss for About Plugin pop-up </p>
+<p>New Plugin Debug View</p>
+<p>New Multiple SF Symbols with different colors</p>
+<p>New Added support for xbar-plugins repository</p>
+<p>New Preferences UI</p>
+<p>Fixed Correct handling of a sleep\wake cycle</p>
+<p>Fixed Color names work in lowercase but not in mixed case</p>
+<p>Fixed Image tint in menu bar should match text color when selected</p>
+<p>Fixed Manual refresh leads to excessive scheduled refreshes</p>
+<p>Fixed Plugin menu items don't align with SwiftBar menu items</p>
     ]]>            </description>
             <pubDate>Tue, 9 Mar 2021 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.3/SwiftBar.zip" sparkle:version="287" sparkle:shortVersionString="1.2.3" length="6583350" type="application/zip" />
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.3.0/SwiftBar.zip" sparkle:version="314" sparkle:shortVersionString="1.3.0" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
     </channel>
