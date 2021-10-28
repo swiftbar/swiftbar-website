@@ -8,20 +8,26 @@
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
         <item>
-            <title>SwiftBar 1.3.0</title>
+            <title>SwiftBar 1.4.0</title>
             <description><![CDATA[
-<p>New Plugin Debug View</p>
-<p>New Multiple SF Symbols with different colors</p>
-<p>New Added support for xbar-plugins repository</p>
-<p>New Preferences UI</p>
-<p>Fixed Correct handling of a sleep\wake cycle</p>
-<p>Fixed Color names work in lowercase but not in mixed case</p>
-<p>Fixed Image tint in menu bar should match text color when selected</p>
-<p>Fixed Manual refresh leads to excessive scheduled refreshes</p>
-<p>Fixed Plugin menu items don't align with SwiftBar menu items</p>
+<p>New Added support for macOS Monterey</p>
+<p>New Automate SwiftBar with Shortcuts</p>
+<p>New Plugin specific Cache and Data directories</p>
+<p>New Russian Localization</p>
+<p>New Support for unlimited shell parameters</p>
+<p>New Plugin Repository Categories are now localized</p>
+<p>New Support for `shell` parameter alongside with `bash`</p>
+<p>New Option to set shell of choice to bash or zsh</p>
+<p>New `sfsize` parameter to customize SF Symbol size within text independently of font size</p>
+<p>Fixed Narrower minimum width for Repository Browser window</p>
+<p>Fixed SF Symbol should honor the font size parameter</p>
+<p>Fixed Menubar opens on MouseDown event</p>
+<p>Fixed `author.github` not parsed in plugin metadata</p>
+<p>Fixed `swiftbar.environment` not available as environment variable</p>
+<p>Fixed Menu bar item with image and text missing padding</p>
     ]]>            </description>
-            <pubDate>Tue, 9 Mar 2021 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.3.0/SwiftBar.zip" sparkle:version="314" sparkle:shortVersionString="1.3.0" length="6583350" type="application/zip" />
+            <pubDate>Thu, 28 Oct 2021 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.0/SwiftBar.zip" sparkle:version="359" sparkle:shortVersionString="1.4.0" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
     </channel>
