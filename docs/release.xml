@@ -8,26 +8,22 @@
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
         <item>
-            <title>SwiftBar 1.4.0</title>
+            <title>SwiftBar 1.4.1</title>
             <description><![CDATA[
-<p>New Added support for macOS Monterey</p>
-<p>New Automate SwiftBar with Shortcuts</p>
-<p>New Plugin specific Cache and Data directories</p>
-<p>New Russian Localization</p>
-<p>New Support for unlimited shell parameters</p>
-<p>New Plugin Repository Categories are now localized</p>
-<p>New Support for `shell` parameter alongside with `bash`</p>
-<p>New Option to set shell of choice to bash or zsh</p>
-<p>New `sfsize` parameter to customize SF Symbol size within text independently of font size</p>
-<p>Fixed Narrower minimum width for Repository Browser window</p>
-<p>Fixed SF Symbol should honor the font size parameter</p>
-<p>Fixed Menubar opens on MouseDown event</p>
-<p>Fixed `author.github` not parsed in plugin metadata</p>
-<p>Fixed `swiftbar.environment` not available as environment variable</p>
-<p>Fixed Menu bar item with image and text missing padding</p>
+<p>New: Update menu on open</p>
+<p>New: Support for **bold** and *italic* text in menu title #8</p>
+<p>New: Plugins list in Preferences live update with Plugin Folder changes</p>
+<p>New: New URL scheme endpoints to `enable`, `disable` and `toggle` plugins</p>
+<p>New: Improved multi-screen support</p>
+<p>New: App icon</p>
+<p>Fixed: Right click on menu bar item should always show menu</p>
+<p>Fixed: `SFImage` honors `width` and `height` parameters</p>
+<p>Fixed: `trim` parameter not working in some cases </p>
+<p>Fixed: Menu bar item may move on click when using SF Symbols</p>
+<p>Fixed: Streaming plugins are not started after sleep </p>
     ]]>            </description>
-            <pubDate>Thu, 28 Oct 2021 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.0/SwiftBar.zip" sparkle:version="359" sparkle:shortVersionString="1.4.0" length="6583350" type="application/zip" />
+            <pubDate>Sun, 19 Dec 2021 00:00:00 -0700</pubDate>
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.1/SwiftBar.zip" sparkle:version="382" sparkle:shortVersionString="1.4.1" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
     </channel>
