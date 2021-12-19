@@ -11,7 +11,7 @@
             <title>SwiftBar 1.4.1</title>
             <description><![CDATA[
 <p>New: Update menu on open</p>
-<p>New: Support for **bold** and *italic* text in menu title #8</p>
+<p>New: Support for **bold** and *italic* text in menu title</p>
 <p>New: Plugins list in Preferences live update with Plugin Folder changes</p>
 <p>New: New URL scheme endpoints to `enable`, `disable` and `toggle` plugins</p>
 <p>New: Improved multi-screen support</p>
