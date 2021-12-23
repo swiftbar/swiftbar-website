@@ -8,22 +8,14 @@
         <description>Most recent SwiftBar releases (not test builds).</description>
         <language>en</language>
         <item>
-            <title>SwiftBar 1.4.1</title>
+            <title>SwiftBar 1.4.2</title>
             <description><![CDATA[
-<p>New: Update menu on open</p>
-<p>New: Support for **bold** and *italic* text in menu title</p>
-<p>New: Plugins list in Preferences live update with Plugin Folder changes</p>
-<p>New: New URL scheme endpoints to `enable`, `disable` and `toggle` plugins</p>
-<p>New: Improved multi-screen support</p>
-<p>New: App icon</p>
-<p>Fixed: Right click on menu bar item should always show menu</p>
-<p>Fixed: `SFImage` honors `width` and `height` parameters</p>
-<p>Fixed: `trim` parameter not working in some cases </p>
-<p>Fixed: Menu bar item may move on click when using SF Symbols</p>
-<p>Fixed: Streaming plugins are not started after sleep </p>
+<p>Fixed: SwiftBar ignores `\n` in plugin output </p>
+<p>Fixed: STDERR should be ignored</p>
+<p>Fixed: SF Symbols starting with numbers not being detected</p>
     ]]>            </description>
             <pubDate>Sun, 19 Dec 2021 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.1/SwiftBar.zip" sparkle:version="382" sparkle:shortVersionString="1.4.1" length="6583350" type="application/zip" />
+            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.2/SwiftBar.zip" sparkle:version="386" sparkle:shortVersionString="1.4.2" length="6583350" type="application/zip" />
             <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
         </item>
     </channel>
