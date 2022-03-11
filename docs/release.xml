@@ -1,22 +1,560 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-    xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <channel>
-        <title>SwiftBar Releases</title>
-        <link>https://swiftbar.com/release.xml</link>
-        <description>Most recent SwiftBar releases (not test builds).</description>
-        <language>en</language>
-        <item>
-            <title>SwiftBar 1.4.2</title>
-            <description><![CDATA[
-<p>Fixed: SwiftBar ignores `\n` in plugin output </p>
-<p>Fixed: STDERR should be ignored</p>
-<p>Fixed: SF Symbols starting with numbers not being detected</p>
-    ]]>            </description>
-            <pubDate>Sun, 19 Dec 2021 00:00:00 -0700</pubDate>
-            <enclosure url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.2/SwiftBar.zip" sparkle:version="386" sparkle:shortVersionString="1.4.2" length="6583350" type="application/zip" />
-            <sparkle:minimumSystemVersion>10.15.0</sparkle:minimumSystemVersion>
-        </item>
-    </channel>
+<rss
+  version="2.0"
+  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+  <channel>
+    <title>SwiftBar Releases</title>
+    
+    <link>https://swiftbar.github.io/SwiftBar/appcast.xml</link>
+    <description>Most recent SwiftBar releases.</description>
+    <language>en</language>
+      
+    <item>
+      <title>1.4.3</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New:</strong> WebView popover #261</li>
+  <li><strong>New:</strong> Option to switch streaming plugin to trailing separator <code class="language-plaintext highlighter-rouge">useTrailingStreamSeparator</code> #273</li>
+  <li><strong>New:</strong> Enabled Refrresh for streamable plugins #281</li>
+  <li><strong>New:</strong> Run command on notification click #274</li>
+  <li><strong>New:</strong> Add new environment variables #284</li>
+  <li><strong>New:</strong> Make Bool parameters case insensitive #278</li>
+  <li><strong>New:</strong> Add preference to update to beta versions #250</li>
+  <li><strong>New:</strong> Capture plugin’s STDERR to log and debug view  #257</li>
+  <li><strong>Fixed:</strong> Changed menu bar item color handling on selection #156 #272</li>
+  <li><strong>Fixed:</strong> Plugin errors being ignored  #287</li>
+  <li><strong>Fixed:</strong> Update lifestyle category icon to match Plugin Repository aesthetic standard #288</li>
+  <li><strong>Fixed:</strong> URL Scheme parameters inconsistency #280</li>
+  <li><strong>Fixed:</strong> Binary plugins not updating #259</li>
+  <li><strong>Fixed:</strong> Improving refreshOnOpen #272</li>
+  <li><strong>Fixed:</strong> Fixed menubar color when using right click  #260</li>
+</ul>
+
+<p>Contributors: @sejmann @fenhl @matopeto @cycle4passion @nicoster @xilopaint</p>
+]]></description>
+      <pubDate>Fri, 11 Mar 2022 18:51:39 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.3/SwiftBar.v1.4.3.b422.zip"
+        sparkle:version="422"
+        sparkle:shortVersionString="1.4.3"
+        
+        length="2926206"
+        type="application/zip"
+      />
+      
+    </item>
+                                        
+    <item>
+      <title>1.4.2</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>Fixed:</strong> SwiftBar ignores <code class="language-plaintext highlighter-rouge">\n</code> in plugin output  #253</li>
+  <li><strong>Fixed:</strong> STDERR should be ignored #255</li>
+  <li><strong>Fixed:</strong> SF Symbols starting with numbers not being detected #256</li>
+</ul>
+]]></description>
+      <pubDate>Thu, 23 Dec 2021 00:00:26 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.2/SwiftBar.zip"
+        sparkle:version="1.4.2"
+        sparkle:shortVersionString="1.4.2"
+        
+        length="4120298"
+        type="application/zip"
+      />
+      
+    </item>
+        
+    <item>
+      <title>1.4.1</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New:</strong> Update menu on open #241</li>
+  <li><strong>New:</strong> Support for <strong>bold</strong> and <em>italic</em> text in menu title #168</li>
+  <li><strong>New:</strong> Plugins list in Preferences live update with Plugin Folder changes #235</li>
+  <li><strong>New:</strong> New URL scheme endpoints to <code class="language-plaintext highlighter-rouge">enable</code>, <code class="language-plaintext highlighter-rouge">disable</code> and <code class="language-plaintext highlighter-rouge">toggle</code> plugins #239</li>
+  <li><strong>New:</strong> Improved multi-screen support #249</li>
+  <li><strong>New:</strong> App icon #224</li>
+  <li><strong>Fixed:</strong> Right click on menu bar item should always show menu #244</li>
+  <li><strong>Fixed:</strong> <code class="language-plaintext highlighter-rouge">SFImage</code> honors <code class="language-plaintext highlighter-rouge">width</code> and <code class="language-plaintext highlighter-rouge">height</code> parameters #245</li>
+  <li><strong>Fixed:</strong> <code class="language-plaintext highlighter-rouge">trim</code> parameter not working in some cases #237</li>
+  <li><strong>Fixed:</strong> Menu bar item may move on click when using SF Symbols #224</li>
+  <li><strong>Fixed:</strong> Streaming plugins are not started after sleep #179</li>
+</ul>
+
+<p>Full Changelog: https://github.com/swiftbar/SwiftBar/compare/v1.4.1..v1.4.0</p>
+
+<h3 id="new-app-icon">New App Icon</h3>
+<p align="left">
+ <img width="155" alt="SwiftBar Logo" src="https://github.com/swiftbar/SwiftBar/blob/main/Resources/logo.png" />
+</p>
+
+<h3 id="italic-and-bold">Italic and Bold</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+<span class="nb">echo</span> <span class="s2">"*Italic* and **Bold**"</span>
+</code></pre></div></div>
+<p><img width="216" alt="CleanShot 2021-12-19 at 11 30 58@2x" src="https://user-images.githubusercontent.com/222100/146682770-11a388e7-fb78-4040-bbb1-24ab2ff02efe.png" /></p>
+
+<h3 id="refresh-on-click">Refresh on click</h3>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;swiftbar.refreshOnOpen&gt;true&lt;/swiftbar.refreshOnOpen&gt;</code></p>
+
+<h3 id="new-url-scheme-endpoints">New URL Scheme Endpoints</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Endpoint</th>
+      <th>Parameter</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>enableplugin</td>
+      <td><code class="language-plaintext highlighter-rouge">name</code> plugin <a href="#plugin-naming">name</a></td>
+      <td>Enable plugin by name</td>
+      <td><code class="language-plaintext highlighter-rouge">swiftbar://enableplugin?name=myplugin</code></td>
+    </tr>
+    <tr>
+      <td>disableplugin</td>
+      <td><code class="language-plaintext highlighter-rouge">name</code> plugin <a href="#plugin-naming">name</a></td>
+      <td>Disable plugin by name</td>
+      <td><code class="language-plaintext highlighter-rouge">swiftbar://disableplugin?name=myplugin</code></td>
+    </tr>
+    <tr>
+      <td>toggleplugin</td>
+      <td><code class="language-plaintext highlighter-rouge">name</code> plugin <a href="#plugin-naming">name</a></td>
+      <td>Toggle(enable\disable) plugin by name</td>
+      <td><code class="language-plaintext highlighter-rouge">swiftbar://toggleplugin?name=myplugin</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Call it like this <code class="language-plaintext highlighter-rouge">open -g "swiftbar://toggle?name=cal"</code></p>
+
+<p>Contributors: @fabiospampinato, @mlcampbe, @fenhl, @es183923,  @astrowonk, @bilal-fazlani, @earslap</p>
+]]></description>
+      <pubDate>Sun, 19 Dec 2021 16:34:06 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.1/SwiftBar.zip"
+        sparkle:version="1.4.1"
+        sparkle:shortVersionString="1.4.1"
+        
+        length="4131179"
+        type="application/zip"
+      />
+      
+    </item>
+                    
+    <item>
+      <title>v1.4.0</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong>: Added support for macOS Monterey #210</li>
+  <li><strong>New</strong>: Automate SwiftBar with Shortcuts</li>
+  <li><strong>New</strong>: Plugin specific Cache and Data directories #200</li>
+  <li><strong>New</strong>: Russian Localization #200</li>
+  <li><strong>New</strong>: Support for unlimited shell parameters #219</li>
+  <li><strong>New</strong>: Plugin Repository Categories are now localized #207</li>
+  <li><strong>New</strong>: Support for <code class="language-plaintext highlighter-rouge">shell</code> parameter alongside with <code class="language-plaintext highlighter-rouge">bash</code> #204</li>
+  <li><strong>New</strong>: Option to set shell of choice to bash or zsh #227</li>
+  <li><strong>New</strong>: <code class="language-plaintext highlighter-rouge">sfsize</code> parameter to customize SF Symbol size within text independently of font size #230</li>
+  <li><strong>Fixed</strong>: Narrower minimum width for Repository Browser window #195</li>
+  <li><strong>Fixed</strong>: SF Symbol should honor the font size parameter #230</li>
+  <li><strong>Fixed</strong>: Menubar opens on MouseDown event #217</li>
+  <li><strong>Fixed</strong>: <code class="language-plaintext highlighter-rouge">author.github</code> not parsed in plugin metadata #215</li>
+  <li><strong>Fixed</strong>: <code class="language-plaintext highlighter-rouge">swiftbar.environment</code> not available as environment variable #214</li>
+  <li><strong>Fixed</strong>: Menu bar item with image and text missing padding #228</li>
+</ul>
+
+<p>Contributors: @gingerbeardman, @xilopaint, @Scartiloffista, @milotype, @JeroenVdb, @astrowonk, @shassard, @darmen, @jyxijij, @rarango9, @moshed</p>
+
+<p><strong>Full Changelog</strong>: https://github.com/swiftbar/SwiftBar/compare/v1.4.0..v1.3.0</p>
+]]></description>
+      <pubDate>Thu, 28 Oct 2021 16:44:08 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.4.0/SwiftBar.zip"
+        sparkle:version="1.4.0"
+        sparkle:shortVersionString="1.4.0"
+        
+        length="4102885"
+        type="application/zip"
+      />
+      
+    </item>
+                    
+    <item>
+      <title>1.3.0</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong>: Plugin Debug View #182</li>
+  <li><strong>New</strong>: Multiple SF Symbols with different colors #180</li>
+  <li><strong>New</strong>: Added support for xbar-plugins repository #183</li>
+  <li><strong>New</strong>: Preferences UI #181</li>
+  <li><strong>Fixed</strong>: Correct handling of a sleep\wake cycle #179</li>
+  <li><strong>Fixed</strong>: Color names work in lowercase but not in mixed case #197</li>
+  <li><strong>Fixed</strong>: Image tint in menu bar should match text color when selected #196</li>
+  <li><strong>Fixed</strong>: Manual refresh leads to excessive scheduled refreshes #194</li>
+  <li><strong>Fixed</strong>: Plugin menu items don’t align with SwiftBar menu items #186</li>
+</ul>
+
+<p>Contributors: @disappearinjon @nacho @shepazon @xilopaint @MaxGiting @carumusan @bilal-fazlani</p>
+]]></description>
+      <pubDate>Sun, 30 May 2021 16:21:35 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.3.0/SwiftBar.zip"
+        sparkle:version="1.3.0"
+        sparkle:shortVersionString="1.3.0"
+        
+        length="4033177"
+        type="application/zip"
+      />
+      
+    </item>
+            
+    <item>
+      <title>1.2.3</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong>: Improved Plugin Repository, including search #130</li>
+  <li><strong>New</strong>: Improved Preferences, including an ability to change some of plugin’s parameters</li>
+  <li><strong>New</strong>: Option to not run plugins in bash #163</li>
+  <li><strong>New</strong>: Custom shortcuts appear on menu items #154</li>
+  <li><strong>New</strong>: Support for milliseconds in refresh interval #166</li>
+  <li><strong>New</strong>: Plugins should remember position in the menu bar and work nicely with Bartender/Dozer/etc. #2</li>
+  <li>** New**: User friendly alert for an unsupported folder for Plugins (i.e. /Applications or /Library) #165</li>
+  <li><strong>Fixed</strong>: Preferences and Plugin Repository can be opened in more than one window #164</li>
+  <li><strong>Fixed</strong>: Inconsistent menu title color when using ‘reduce transparency’ on Big Sur #156</li>
+  <li><strong>Fixed</strong>: SwiftBar should handle the sleep-wake cycle correctly  #147</li>
+  <li><strong>Fixed</strong>: Proper dismiss for About Plugin pop-up  #169</li>
+</ul>
+
+<p>User interface updates are mostly Big Sur only, Catalina get’s all the features, but UI is different.</p>
+
+<p>Known issues:</p>
+<ul>
+  <li>Plugin search is dumb</li>
+  <li>Plugin Browser UI is a little wonky</li>
+  <li>Preferences is not “mac like” and rough on the edges</li>
+  <li>No localization for new UI</li>
+</ul>
+
+<p><img src="https://user-images.githubusercontent.com/222100/110520713-d5058000-80dc-11eb-9b15-baa09cb445bf.png" alt="CleanShot 2021-03-09 at 13 39 01@2x" /></p>
+
+<p>Contributors: @bilal-fazlani, @Cygnusfear, @xilopaint, @fenhl, @samnunn</p>
+]]></description>
+      <pubDate>Tue, 09 Mar 2021 19:03:24 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.3/SwiftBar.zip"
+        sparkle:version="1.2.3"
+        sparkle:shortVersionString="1.2.3"
+        
+        length="3896973"
+        type="application/zip"
+      />
+      
+    </item>
+                    
+    <item>
+      <title>1.2.2</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong>: Shortcuts support for F-keys #139</li>
+  <li><strong>Fixed</strong>: Refresh intervals in symlinked plugin files get ignored #142</li>
+  <li><strong>Fixed</strong>: SwiftBar should show “⚠️” after streaming plugin has crashed #132</li>
+  <li><strong>Fixed</strong>: Menu item vertical position with custom font size on Catalina #111</li>
+  <li><strong>Fixed</strong>: Inflated binary size due too Swift bug #109</li>
+  <li><strong>Improved</strong>: About Window Copyright and formatting #135 #137</li>
+</ul>
+
+<p>Contributors: @fenhl, @bilal-fazlani, @cliss</p>
+]]></description>
+      <pubDate>Sun, 31 Jan 2021 20:48:44 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.2/SwiftBar.zip"
+        sparkle:version="1.2.2"
+        sparkle:shortVersionString="1.2.2"
+        
+        length="3795613"
+        type="application/zip"
+      />
+      
+    </item>
+        
+    <item>
+      <title>1.2.1</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong>: Streaming plugin support #118</li>
+  <li><strong>New</strong>: Nested symlinked directories in Plugin Folder properly traversed  #112</li>
+  <li><strong>New</strong>: Calendar access support #127</li>
+  <li><strong>Fixed</strong>:  Shortcuts action is broken for menu bar item #123</li>
+  <li><strong>Fixed</strong>:  SwiftBar doesn’t ask for notification permissions #122</li>
+  <li><strong>Fixed</strong>: SwiftBar sometimes hangs when opening a URL #88  (Not sure about this one, please report if you see this happening)</li>
+</ul>
+
+<p>Contributors: @bilal-fazlani, @xilopaint, @mdbraber, @crcastle</p>
+]]></description>
+      <pubDate>Tue, 05 Jan 2021 23:48:21 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.1/SwiftBar.zip"
+        sparkle:version="1.2.1"
+        sparkle:shortVersionString="1.2.1"
+        
+        length="5705395"
+        type="application/zip"
+      />
+      
+    </item>
+        
+    <item>
+      <title>1.2.0</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong>: URL Scheme for sending notifications #112</li>
+  <li><strong>New</strong>: Plugin metadata support for binary plugins #105</li>
+  <li><strong>New</strong>: Support dropping stuff on menu bar #104</li>
+  <li><strong>New</strong>: Localization support #36</li>
+  <li><strong>New</strong>: Display metadata in Preferences: Plugins #97</li>
+  <li><strong>New</strong>: Enable/disable plugins via checkbox #98</li>
+  <li><strong>New</strong>: SF Symbols can be tinted with color using <code class="language-plaintext highlighter-rouge">sfcolor=</code>  parameter #86</li>
+  <li><strong>New</strong>: Menu bar item now supports actions(href, bash, refresh) #110</li>
+  <li><strong>New</strong>: Time based plugin refresh #102</li>
+  <li><strong>New</strong>: <code class="language-plaintext highlighter-rouge">symbolize</code> is always <code class="language-plaintext highlighter-rouge">false</code> on Catalina #114</li>
+  <li><strong>New</strong>:  Dutch localization</li>
+  <li><strong>Fixed</strong>: Reset to default background ANSI color doesn’t work #93</li>
+  <li><strong>Fixed</strong>: “Run in Terminal” Doesn’t Appear to Set Environment Variables #96</li>
+</ul>
+
+<p>Contributors: @bilal-fazlani, @JayBrown, @yanzhang0219, @cliss, @jasonsnell, @lksoft, @bjinse</p>
+]]></description>
+      <pubDate>Thu, 31 Dec 2020 03:09:42 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.2.0/SwiftBar.zip"
+        sparkle:version="1.2.0"
+        sparkle:shortVersionString="1.2.0"
+        
+        length="5692308"
+        type="application/zip"
+      />
+      
+    </item>
+                
+    <item>
+      <title>1.1.1</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong>: OS_APPERANCE environment variable containing current macOS appearance #87</li>
+  <li><strong>Improved</strong>: Custom baseline offset for custom font sizes #85</li>
+  <li><strong>Improved</strong>: Environment variables inheritance from system shell #77</li>
+  <li><strong>Improved</strong>: Plugin list scrolls to top on category change #80</li>
+  <li><strong>Improved</strong>:  SF Symbols have priority, emoji will work only if SF Symbols explicitly disabled. #46</li>
+  <li><strong>Fixed</strong>: Plugin directory doesn’t support symlinks #76</li>
+  <li><strong>Fixed</strong>: “Get Plugins” sidebar is far too narrow by default #81</li>
+  <li><strong>Fixed</strong>: Background &amp; foreground ANSI colors are not supported together #82</li>
+  <li><strong>Fixed</strong>: Extra space with image menus #84</li>
+  <li><strong>Fixed</strong>: Disabled plugins run on SwiftBar start #89</li>
+</ul>
+
+<p>Contributors: @yanzhang0219, @gilbarbara, @kdeldycke, @kemayo, @jmjordan, @cheshire, @incanus</p>
+]]></description>
+      <pubDate>Thu, 17 Dec 2020 03:08:23 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.1/SwiftBar.zip"
+        sparkle:version="1.1.1"
+        sparkle:shortVersionString="1.1.1"
+        
+        length="5610478"
+        type="application/zip"
+      />
+      
+    </item>
+        
+    <item>
+      <title>1.1.0</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong> Option to hide system menu items #29</li>
+  <li><strong>New</strong> Support SF Symbols in item title #46</li>
+  <li><strong>New</strong> SwiftBar environment properties passed to plugin scope #50</li>
+  <li><strong>New</strong> Improved support for binary plugins #60</li>
+  <li><strong>New</strong> Plugins with no output are automatically hidden from the menu bar, instead of showing ⚠️ #39</li>
+  <li><strong>New</strong> Ignore contents of hidden subfolders in the Plugin Folder #49</li>
+  <li><strong>New</strong> ANSI colors support #1</li>
+  <li><strong>New</strong> Opt-out from SwiftBar making files executable in the Plugin Folder #51</li>
+  <li><strong>New</strong> Separate color options for dark/light appearance #67</li>
+  <li><strong>New</strong> Auto-update mechanisms  #40</li>
+  <li><strong>Fixed</strong>: Allow icon and text in the menu bar #37</li>
+  <li><strong>Fixed</strong>: Crash on start if the Plugin Folder was removed #41</li>
+  <li><strong>Fixed</strong>: Plugins are not recognized when Plugin Folder path contains spaces #48</li>
+  <li><strong>Fixed</strong>: Refreshing repository data lasts forever … #35</li>
+  <li><strong>Fixed</strong>: “Run in Terminal” creates new tabs both for Terminal and iTerm #58</li>
+  <li><strong>Fixed</strong>: Couldn’t get plugins from Plugin Repository #59</li>
+  <li><strong>Fixed</strong>: Executable and parameters contains spaces is not escaped #53</li>
+</ul>
+
+<p>Contributors: @jasonsnell @cliss @matopeto @oefe @bilal-fazlani @JayBrown @tomads @alexp2ad @jmjordan @quarterdeck @yanzhang0219</p>
+
+<h2 id="demo">Demo:</h2>
+<h3 id="option-to-hide-system-menu-items">Option to hide system menu items</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># &lt;swiftbar.hideAbout&gt;true&lt;/swiftbar.hideAbout&gt;
+# &lt;swiftbar.hideRunInTerminal&gt;true&lt;/swiftbar.hideRunInTerminal&gt;
+# &lt;swiftbar.hideLastUpdated&gt;true&lt;/swiftbar.hideLastUpdated&gt;
+# &lt;swiftbar.hideDisablePlugin&gt;true&lt;/swiftbar.hideDisablePlugin&gt;
+# &lt;swiftbar.hideSwiftBar&gt;true&lt;/swiftbar.hideSwiftBar&gt;
+</code></pre></div></div>
+<p><img src="https://user-images.githubusercontent.com/222100/101261866-267e2780-3708-11eb-9042-a57ad0ac6c78.gif" alt="SwiftBar" /></p>
+
+<h3 id="support-sf-symbols-in-item-title">Support SF Symbols in item title</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+echo "Test :sun.max: :cloud.fill: :gamecontroller.fill: :bookmark: :sun.dust:"
+echo "---"
+echo "Test :bookmark:"
+echo "Test :sun.max:"
+</code></pre></div></div>
+<p><img width="196" alt="Screen Shot 2020-12-07 at 10 05 48 PM" src="https://user-images.githubusercontent.com/222100/101433255-5e3bc980-38d8-11eb-97c0-d72bc36885d9.png" /></p>
+
+<h3 id="allow-icon-and-text-in-the-menu-bar">Allow icon and text in the menu bar</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>241 mi | templateImage=iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAErWlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iWE1QIENvcmUgNS41LjAiPgogPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgeG1sbnM6ZXhpZj0iaHR0cDovL25zLmFkb2JlLmNvbS9leGlmLzEuMC8iCiAgICB4bWxuczp0aWZmPSJodHRwOi8vbnMuYWRvYmUuY29tL3RpZmYvMS4wLyIKICAgIHhtbG5zOnBob3Rvc2hvcD0iaHR0cDovL25zLmFkb2JlLmNvbS9waG90b3Nob3AvMS4wLyIKICAgIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIKICAgIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIgogICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgZXhpZjpQaXhlbFhEaW1lbnNpb249IjM2IgogICBleGlmOlBpeGVsWURpbWVuc2lvbj0iMzYiCiAgIGV4aWY6Q29sb3JTcGFjZT0iMSIKICAgdGlmZjpJbWFnZVdpZHRoPSIzNiIKICAgdGlmZjpJbWFnZUxlbmd0aD0iMzYiCiAgIHRpZmY6UmVzb2x1dGlvblVuaXQ9IjIiCiAgIHRpZmY6WFJlc29sdXRpb249IjE0NC4wIgogICB0aWZmOllSZXNvbHV0aW9uPSIxNDQuMCIKICAgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIKICAgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9InNSR0IgSUVDNjE5NjYtMi4xIgogICB4bXA6TW9kaWZ5RGF0ZT0iMjAyMC0wMi0xNFQxMzozOTozMloiCiAgIHhtcDpNZXRhZGF0YURhdGU9IjIwMjAtMDItMTRUMTM6Mzk6MzJaIj4KICAgPHhtcE1NOkhpc3Rvcnk+CiAgICA8cmRmOlNlcT4KICAgICA8cmRmOmxpCiAgICAgIHN0RXZ0OmFjdGlvbj0icHJvZHVjZWQiCiAgICAgIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFmZmluaXR5IERlc2lnbmVyIChTZXAgMjIgMjAxOSkiCiAgICAgIHN0RXZ0OndoZW49IjIwMjAtMDItMTRUMTM6Mzk6MzJaIi8+CiAgICA8L3JkZjpTZXE+CiAgIDwveG1wTU06SGlzdG9yeT4KICA8L3JkZjpEZXNjcmlwdGlvbj4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz4kmJgeAAABgmlDQ1BzUkdCIElFQzYxOTY2LTIuMQAAKJF1kc8rRFEUxz8zQyPjV1EsLCZhNcSoiY0yk4aSpjHKYPPmmR9qZrzee9Jkq2ynKLHxa8FfwFZZK0WkZGVhTWzQc55RI5lzO/d87vfec7r3XHDGsmrOqOqDXN7Uo+GgdyY+63U/4qQBD610KKqhjUQiE1S0txscdrzqsWtVPveveRaShgqOGuFhVdNN4THhiRVTs3lTuEXNKAvCx8I+XS4ofG3riRI/2Zwu8YfNeiwaAmeTsDf9ixO/WM3oOWF5OZ257LL6cx/7JXXJ/PSUxA7xdgyihAniZZxRQgToZ0jmAD346ZUVFfL7vvMnWZJcVWaNAjqLpMlg4hN1WaonJaZET8rIUrD7/7evRmrAX6peF4TqB8t66QL3BnwWLet937I+D8B1D2f5cv7SHgy+il4sa5270LgGJ+dlLbEFp+vQdqcpuvItucSdqRQ8H0F9HJovoXau1LOffQ5vIbYqX3UB2zvQLecb578ALAJny/gySdMAAAAJcEhZcwAAFiUAABYlAUlSJPAAAAILSURBVFiF7de7axVBFMfxTzTxAZIIMUoUNYWVBsRH44PY2KTxH/B/sPcfsVILFUxnJVpG8dUIN4hYKGpMECIagxIUvCYWM5dsNpu9e3cXc4v84DDLmZkzX86Zmd1lU/nq6WDsFgxiT8IGoj+pJSzga8Lmo7800GGcw3mcwSHszli8qJbwHdN4hqd4gtk8oEu4HEEORN+POPkN5vAlti37huVUzFYm90Xbm3g+hrPYFcd+ivFv4WEa6BTu4wUe4xEa+BsDjMR2Z7QdsW3gdYxxHKP4Fe13bH/iIxbRi5MYwwWcxsVWjKyS9cUsjQvlOoLhjHEtfY4LbMNLDLUZ+1Yo2wM8RzNnvB7cFcqQtCY+YFJI71yqf1LIbNI3i9tCtqeFTKfjXlfgYPXhZmLShLAPkprICJ62G6k5+3Ev0X8NW9vBJHUCd9Cf0Xe1ANCVjHlDQoZHOwEpovECQGN1L5qn4QJAA/8TqMfajZ2092UDl715lzGV05/Xl6uyQIQLsUxfrroOqIqOWn8PjWwEUK/wrkrDLOjss2aVqpSsiVcZ/oa1XwCFVQWotXgRX2FVBco63qWPPF2Yoarqt3pD/8H2jQSCd1aAKpWL6iWTgugKoMY6z6XUdUB16KCVPTS4wSwIr4l5zNQRrLeGGMtCqRZriFULEF0INKUmoI7+i9poRthLXaE+9Vwhm2qrf1g7s4YViKR/AAAAAElFTkSuQmCC
+</code></pre></div></div>
+
+<p><img width="71" alt="Screenshot 2020-11-30 at 10 11 44@2x" src="https://user-images.githubusercontent.com/138576/100597009-cc8af580-32f4-11eb-86ff-fb092e8212ce.png" /></p>
+
+<h3 id="ansi-colors">ANSI colors</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/bin/bash
+echo -e "\033[38;5;82mHello \033[38;5;198mWorld | ansi=true"
+echo "---"
+echo -e "\033[40;38;5;82m Hello \033[30;48;5;82m World \033[0m | ansi=true"
+</code></pre></div></div>
+
+<p><img width="206" alt="Screen Shot 2020-12-13 at 11 49 42 AM" src="https://user-images.githubusercontent.com/222100/102018133-4b425280-3d39-11eb-8105-6323571ceb3e.png" /></p>
+
+]]></description>
+      <pubDate>Sun, 13 Dec 2020 20:03:38 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.1.0/SwiftBar.zip"
+        sparkle:version="1.1.0"
+        sparkle:shortVersionString="1.1.0"
+        
+        length="5603301"
+        type="application/zip"
+      />
+      
+    </item>
+            
+    <item>
+      <title>1.0.2</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong>: Added “Send Feedback” menu item which opens issues page in this repository #13</li>
+  <li><strong>New</strong>: Option to hide SwiftBar icon from the menu #23</li>
+  <li><strong>Fixed</strong>: Script output parsing  #19</li>
+  <li><strong>Fixed</strong>: Image retention in the menu bar #8</li>
+  <li><strong>Fixed</strong>: Separator not showing in submenus correctly #17</li>
+  <li><strong>Fixed</strong>: Parameters <code class="language-plaintext highlighter-rouge">refresh=true</code> and <code class="language-plaintext highlighter-rouge">bash=...</code> don’t work together #22</li>
+  <li><strong>Fixed</strong>: Default menu font size #11</li>
+  <li><strong>Fixed</strong>: Plugin Repository is not showing if plugin folder is not selected #16</li>
+  <li><strong>Fixed</strong>: Don’t allow set /Application folder as plugin folder #24</li>
+  <li><strong>Fixed</strong>: Invert font in menu bar when selected #12</li>
+</ul>
+
+<p>Huge shoutout to this release contributors: @JayBrown, @krubenok, @jasonsnell, @jdeweese1</p>
+]]></description>
+      <pubDate>Sun, 29 Nov 2020 15:12:03 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.2/SwiftBar.zip"
+        sparkle:version="1.0.2"
+        sparkle:shortVersionString="1.0.2"
+        
+        length="1112736"
+        type="application/zip"
+      />
+      
+    </item>
+        
+    <item>
+      <title>1.0.1</title>
+      <description><![CDATA[<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>Fixed</strong>: Template Images not Displaying #4</li>
+  <li><strong>Improved</strong>: Changing plugin folder reloads plugins automatically</li>
+  <li><strong>Improved</strong>:  Not time plugins, i.e. <code class="language-plaintext highlighter-rouge">plugin.sh</code> run one time on launch(technically every 100 days)</li>
+</ul>
+]]></description>
+      <pubDate>Mon, 23 Nov 2020 23:36:58 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.1/SwiftBar.zip"
+        sparkle:version="1.0.1"
+        sparkle:shortVersionString="1.0.1"
+        
+        length="1102368"
+        type="application/zip"
+      />
+      
+    </item>
+        
+    <item>
+      <title>1.0.0</title>
+      <description><![CDATA[<p>This is the first release of SwiftBar - a powerful tool to customize macOS menu bar. SwiftBar is inspired by <a href="https://github.com/matryer/bitbar">BitBar</a> and implements BitBar’s plugin API.</p>
+
+<h2 id="release-goals">Release Goals</h2>
+<p>First release aims to implement most of BitBar’s API to support most of the plugins in <a href="https://github.com/matryer/bitbar-plugins">BitBar repository</a>. This should ease the transition for users.</p>
+
+<h2 id="changelog">Changelog:</h2>
+<ul>
+  <li><strong>New</strong>: BitBar 1.9.2 API compatibility(see below)*</li>
+  <li><strong>New</strong>: Plugin folder monitored for changes, new plugins are loaded automatically</li>
+  <li><strong>New</strong>: Enable\Disable plugin</li>
+  <li><strong>New</strong>: About Menu based on plugin metadata</li>
+  <li><strong>New</strong>: Opt-in to use iTerm instead of Terminal</li>
+  <li><strong>New</strong>: Define image size with <code class="language-plaintext highlighter-rouge">width</code> and <code class="language-plaintext highlighter-rouge">height</code> parameters to</li>
+  <li><strong>New</strong>: Set image using SF Symbols with <code class="language-plaintext highlighter-rouge">sfimage</code> parameter</li>
+  <li><strong>New</strong>: Set tooltip using <code class="language-plaintext highlighter-rouge">tooltip</code> parameter</li>
+  <li><strong>New</strong>: Global Shortcuts.  New <code class="language-plaintext highlighter-rouge">shortcut</code> parameter assigns a global shortcut to the menu item. If menu item is a title shortcut will open menu, if menu item is not a title and has an associated action, then shortcut will run this action. Example: <code class="language-plaintext highlighter-rouge">shortcut=CMD+OPT+T</code></li>
+  <li><strong>New</strong>: <code class="language-plaintext highlighter-rouge">checkmark=true</code> parameter to show checkmark in menu item</li>
+  <li><strong>New</strong>:  Support for multiline menu item titles, just add <code class="language-plaintext highlighter-rouge">\\n</code> as a line break</li>
+  <li><strong>New</strong>:  When plugin fails to update a special Error menu item is shown</li>
+  <li><strong>New</strong>: Launch at Login</li>
+  <li><strong>New</strong>: Plugin Repository</li>
+</ul>
+
+<h2 id="known-plugin-api-discrepancies">Known Plugin API Discrepancies</h2>
+<ul>
+  <li>No support for ANSI codes</li>
+  <li>No <code class="language-plaintext highlighter-rouge">$BitBarDarkMode</code></li>
+</ul>
+]]></description>
+      <pubDate>Sat, 21 Nov 2020 22:19:31 +0000</pubDate>
+        
+      <enclosure
+        url="https://github.com/swiftbar/SwiftBar/releases/download/v1.0.0/SwiftBar.zip"
+        sparkle:version="1.0.0"
+        sparkle:shortVersionString="1.0.0"
+        
+        length="1102614"
+        type="application/zip"
+      />
+      
+    </item>
+                      
+  </channel>
 </rss>
